@@ -119,7 +119,7 @@ export default function Page() {
               </div>
             </div>
           </BlurFade>
-          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
+          <div className="grid grid-cols-1 gap-3 max-w-[800px] mx-auto">
             {DATA.projects.map((project, id) => (
               <BlurFade
                 key={project.title}
@@ -150,7 +150,7 @@ export default function Page() {
                   Publications
                 </div>
                 <h2 className="text-3xl font-heading font-bold tracking-tighter sm:text-5xl">
-                  Research & writing
+                  Research
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   My research papers, reports, and technical write-ups.
@@ -158,7 +158,7 @@ export default function Page() {
               </div>
             </div>
           </BlurFade>
-          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3 max-w-[1000px] mx-auto">
+          <div className="grid grid-cols-1 gap-3 max-w-[800px] mx-auto">
             {DATA.publications.map((publication, id) => (
               <BlurFade
                 key={publication.title}

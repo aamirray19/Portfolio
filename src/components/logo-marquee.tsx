@@ -31,6 +31,8 @@ const Logo = ({ name, src, invertInDark }: LogoProps) => (
 
 const DEVICON = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons";
 const SIMPLE = "https://cdn.simpleicons.org";
+const LANGCHAIN_ICON =
+  "https://cdn.prod.website-files.com/65b8cd72835ceeacd4449a53/69a17e4a429d54e956e2a763_favicon.png";
 
 const row1Skills: LogoProps[] = [
   { name: "Next.js", src: `${DEVICON}/nextjs/nextjs-original.svg`, invertInDark: true },
@@ -53,7 +55,7 @@ const row2Skills: LogoProps[] = [
   { name: "FastAPI", src: `${DEVICON}/fastapi/fastapi-original.svg` },
   { name: "Git", src: `${DEVICON}/git/git-original.svg` },
   { name: "Qdrant", src: `${SIMPLE}/qdrant` },
-  { name: "LangChain", src: `${SIMPLE}/langchain`, invertInDark: true },
+  { name: "LangChain", src: LANGCHAIN_ICON },
   { name: "NumPy", src: `${DEVICON}/numpy/numpy-original.svg` },
   { name: "Pandas", src: `${DEVICON}/pandas/pandas-original.svg`, invertInDark: true },
   { name: "TensorFlow", src: `${DEVICON}/tensorflow/tensorflow-original.svg` },
