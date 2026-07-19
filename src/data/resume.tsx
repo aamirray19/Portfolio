@@ -166,7 +166,7 @@ export const DATA = {
     },
     {
       title: "Eventra (Coming Soon!)",
-      href: "",
+      href: "https://eventra-silk.vercel.app",
       dates: "Coming Soon",
       active: true,
       description:
