@@ -166,13 +166,19 @@ export const DATA = {
     },
     {
       title: "Eventra (Coming Soon!)",
-      href: "https://eventra-silk.vercel.app",
+      href: "",
       dates: "Coming Soon",
       active: true,
       description:
         "Eventra is an AI-powered prediction marketplace that leverages autonomous agents to discover emerging events, analyze relevant information, and create tradable prediction markets. Alongside AI-generated markets, users can launch their own community event markets, allowing others to participate by predicting and staking on outcomes.",
       technologies: [],
-      links: [],
+      links: [
+        {
+          type: "Website",
+          href: "https://eventra-silk.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
       image: "/eventra.jpeg",
       video: "",
     },
