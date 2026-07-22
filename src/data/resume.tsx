@@ -21,7 +21,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "https://drive.google.com/file/d/1wEMPEUn9yTiJzX_nifzoT8W96DisETd_/view?usp=drivesdk", icon: FileTextIcon, label: "Resume" },
+    { href: "https://drive.google.com/file/d/1jUrLgnHAx4rmJFfPhLJAMi5-Gh2C7tMB/view?usp=sharing", icon: FileTextIcon, label: "Resume" },
   ],
   contact: {
     email: "aamirray19@gmail.com",
@@ -201,25 +201,6 @@ export const DATA = {
         {
           type: "Publication",
           href: "https://ieeexplore.ieee.org/xpl/conhome/11373938/proceeding",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "",
-    },
-    {
-      title:
-        "Emotion Recognition from Speech and Text using a Multimodal Transformer with Emotionally Salient-Aware Positional Encoding and Cross Attention Mechanism",
-      href: "https://drive.google.com/file/d/1jtc-X2MTYSWwuIvMCbujNuPI8hBmWy87/view?usp=drivesdk",
-      dates: "Under Review",
-      active: true,
-      description:
-        "A multimodal emotion recognition system that combines speech and text cues to classify human emotions more accurately. The framework uses a Transformer-based voice model with emotionally salient positional encoding and cross-attention, along with a DistilBERT-based text model, then fuses both outputs for final emotion prediction.",
-      technologies: ["Multimodal", "Transformers", "Speech", "DistilBERT", "Cross-Attention"],
-      links: [
-        {
-          type: "PDF",
-          href: "https://drive.google.com/file/d/1jtc-X2MTYSWwuIvMCbujNuPI8hBmWy87/view?usp=drivesdk",
           icon: <Icons.globe className="size-3" />,
         },
       ],
