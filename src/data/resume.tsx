@@ -226,6 +226,30 @@ export const DATA = {
       image: "",
       video: "",
     },
+    {
+      title:
+        "Structure-Preserving Document Translation via Multi-Stage LLM Pipeline: A Case Study in Marathi",
+      href: "https://arxiv.org/abs/2606.28796",
+      dates: "June 27, 2026",
+      active: true,
+      description:
+        "A multi-stage LLM pipeline for translating documents into Marathi while preserving original layout and structure, addressing the loss of formatting common in direct machine translation approaches.",
+      technologies: ["LLM", "NLP", "Machine Translation", "Marathi"],
+      links: [
+        {
+          type: "PDF",
+          href: "https://drive.google.com/file/d/1T1_7g-W4JuytO99TYxZWZnVukXkENXRK/view?usp=sharing",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Publication",
+          href: "https://arxiv.org/abs/2606.28796",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
   ],
   hackathons: [],
 } as const;
