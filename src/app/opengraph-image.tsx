@@ -34,7 +34,7 @@ export default async function Image() {
           style={{ borderRadius: "50%", objectFit: "cover" }}
         />
         <div style={{ fontSize: 64, fontWeight: 700, color: "#0a0a0a" }}>
-          Hi, I&apos;m {DATA.firstName}
+          {`Hi, I'm ${DATA.firstName}`}
         </div>
         <div style={{ fontSize: 28, color: "#525252" }}>{DATA.description}</div>
       </div>
