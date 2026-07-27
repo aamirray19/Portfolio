@@ -1,11 +1,11 @@
 {
-  "name": "tanay-portfolio",
+  "name": "aamir-portfolio",
   "version": "0.1.0",
   "private": true,
-  "author": "Tanay Chaudhari",
+  "author": "Mohammad Aamir Rayyan",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tanayyo1/Portfolio.git"
+    "url": "https://github.com/aamirray19/Portfolio.git"
   },
   "scripts": {
     "dev": "next dev",
