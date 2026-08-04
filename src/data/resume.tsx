@@ -21,10 +21,10 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "https://drive.google.com/file/d/1jUrLgnHAx4rmJFfPhLJAMi5-Gh2C7tMB/view?usp=sharing", icon: FileTextIcon, label: "Resume" },
+    { href: "https://drive.google.com/file/d/1fsAnJqwnpGEf-3dQhXEd9HFQA4wd-PFd/view?usp=sharing", icon: FileTextIcon, label: "Resume" },
   ],
   contact: {
-    email: "aamirray19@gmail.com",
+    email: "mohaamirray6@gmail.com",
     tel: "9049065533",
     social: {
       GitHub: {
@@ -47,7 +47,7 @@ export const DATA = {
       },
       email: {
         name: "Send Email",
-        url: "mailto:aamirray19@gmail.com",
+        url: "mailto:mohaamirray6@gmail.com",
         icon: Icons.email,
         navbar: true,
       },
@@ -65,8 +65,8 @@ export const DATA = {
       start: "February 2026",
       end: "Present",
       description: [
-        "Developed an AI observability platform that automatically instruments uploaded Python LLM applications using OpenTelemetry and Langfuse, enabling real-time monitoring of traces, latency, errors, and token usage for improved debugging and performance analysis.",
-        "Automated the RHEL 9 to RHEL 10 migration process using Chef, reducing manual upgrade effort and ensuring consistent system configurations across enterprise environments.",
+        "Automated RHEL 9 to 10 migration and CIS OS hardening for United Overseas Bank (UOB) using Chef, reducing audit time by 30% and compliance vulnerabilities by 40% through scalable infrastructure automation.",
+        "Developed an AI observability platform that automatically instrumented uploaded Python LLM applications using OpenTelemetry and Langfuse, enabling real-time monitoring of traces, latency, errors, and token usage to accelerate debugging and performance analysis.",
       ],
     },
     {
@@ -79,8 +79,8 @@ export const DATA = {
       start: "June 2025",
       end: "December 2025",
       description: [
-        "Built a real-time Charging Logger service using FastAPI, CAN bus, and PostgreSQL, enabling continuous charger monitoring and faster error diagnosis.",
-        "Automated Robot simulation environment provisioning with Ansible, reducing deployment time by 96% and accelerating business simulation workflows.",
+        "Automated Robot simulation environment provisioning with Ansible, reducing deployment time by 96% (4 hours to 10 minutes) and accelerating business simulation workflows.",
+        "Built a real-time Charging Logger service using FastAPI, CAN bus, and PostgreSQL, enabling continuous charger monitoring and faster root cause analysis for field issues.",
         "Developed a real-time uptime analytics platform to compute and visualize hourly system availability, providing customers with actionable reliability insights and performance visibility.",
       ],
     },
@@ -94,8 +94,8 @@ export const DATA = {
       start: "August 2025",
       end: "June 2026",
       description: [
-        "Developed a structure-preserving Marathi-to-English document translation framework using layout-aware OCR, LLM-based translation, coordinate-guided text alignment, and HTML reconstruction to maintain formatting fidelity in government PDFs.",
-        "Designed a multilingual LLM evaluation framework to measure instruction adherence across 5 open-weight models, 6 Indic languages, 4 domains, and 6 prompting strategies, identifying key failure modes such as code-mixing, script inconsistency, and prompt sensitivity.",
+        "Developed a layout-preserving Marathi-to-English document translation pipeline using Chandra OCR, LLM-based translation, and coordinate-guided text alignment, reconstructing government PDFs while preserving their original formatting and structure.",
+        "Built an automated LLM benchmarking framework evaluating 5 open-source models across 6 Indian languages, 4 domains, and 6 prompting strategies to analyze multilingual instruction-following performance.",
       ],
     },
   ],
