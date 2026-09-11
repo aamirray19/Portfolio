@@ -21,7 +21,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "https://drive.google.com/file/d/1fsAnJqwnpGEf-3dQhXEd9HFQA4wd-PFd/view?usp=sharing", icon: FileTextIcon, label: "Resume" },
+    { href: "https://drive.google.com/file/d/1bIGmwOcpSUElkVvzVz454ud-SJ1J9PJw/view?usp=drivesdk", icon: FileTextIcon, label: "Resume" },
   ],
   contact: {
     email: "mohaamirray6@gmail.com",
@@ -60,7 +60,7 @@ export const DATA = {
       href: "https://www.hpe.com/",
       badges: [],
       location: "Pune",
-      title: "Technology Consultant Intern",
+      title: "Software Engineer",
       logoUrl: "/hpe.png",
       start: "February 2026",
       end: "Present",
