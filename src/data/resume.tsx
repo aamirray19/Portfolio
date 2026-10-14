@@ -65,7 +65,7 @@ export const DATA = {
       start: "February 2026",
       end: "Present",
       description: [
-        "Automated RHEL 9 to 10 migration and CIS OS hardening for United Overseas Bank (UOB) using Chef, reducing audit time by 30% and compliance vulnerabilities by 40% through scalable infrastructure automation.",
+        "Automated RHEL 9 to 10 migration and CIS OS hardening using Chef, reducing audit time by 30% and compliance vulnerabilities by 40% through scalable infrastructure automation.",
         "Developed an AI observability platform that automatically instrumented uploaded Python LLM applications using OpenTelemetry and Langfuse, enabling real-time monitoring of traces, latency, errors, and token usage to accelerate debugging and performance analysis.",
       ],
     },
