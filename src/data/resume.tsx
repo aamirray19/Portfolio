@@ -21,7 +21,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "https://drive.google.com/file/d/1bIGmwOcpSUElkVvzVz454ud-SJ1J9PJw/view?usp=drivesdk", icon: FileTextIcon, label: "Resume" },
+    { href: "https://drive.google.com/file/d/1JvRgAQIDI2hXYw5bzgGueM5t3XHDu1eX/view?usp=drivesdk", icon: FileTextIcon, label: "Resume" },
   ],
   contact: {
     email: "mohaamirray6@gmail.com",
